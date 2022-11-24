@@ -1,4 +1,16 @@
+.inner-div{
+    margin:2% 4%;
+
+}
 .para{
+    padding:20px;
+    text-align: center;
     border: 2px solid black;
-    background: green;
+    background: rgb(194, 255, 194);
+}
+.para-text{
+ font-size:18px;
+ text-transform: capitalize;
+ font-weight:bold;
+ text-decoration: double underline;
 }
