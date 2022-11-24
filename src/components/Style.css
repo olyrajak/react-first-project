@@ -1,0 +1,67 @@
+:root {
+  --main-color: rgb(104, 117, 217);
+  --main-color-hover: rgb(104, 117, 217, 0.2);
+  --track-color: #ddd;
+}
+:root {
+  --main-color: rgb(104, 117, 217);
+  --main-color-hover: rgb(104, 117, 217, 0.2);
+  --track-color: #ddd;
+}
+
+.customSlider {
+  /* max width of your slider */
+  max-width: 300px;
+  /* Optional: Only If you want to center your slider in the page */
+  margin: auto;
+}
+
+.customSlider-track {
+  /* Top value to align your track to the center of your thumb */
+  top: 8px;
+  /* thickness of the track */
+  height: 4px;
+ /* default color of your track */
+  background: var(--track-color);
+}
+
+.customSlider-track.customSlider-track-0 {
+  /* color of the track before the thumb */
+  background: var(--main-color);
+}
+
+
+.animation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 60px;
+  /* margin-top: 20px; */
+}
+.animation p {
+  position: relative;
+  display: inline-block;
+  color: #060452;
+  text-decoration: dotted;
+  animation: animation 1s infinite;
+  animation-delay: calc(.10s * var(--i));
+}
+@keyframes animation {
+  0% {
+    /* -webkit-transform:
+        translate3d(0,0,0)
+        rotate(90deg); */
+        color:rgb(4, 4, 81);
+}
+
+100% {
+    /* -webkit-transform:
+        translate3d(-400px,680px,0)
+        rotate(0deg);
+    opacity: 0; */
+    color:rgb(178, 28, 91);
+
+}
+}
