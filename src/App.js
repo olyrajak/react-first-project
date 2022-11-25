@@ -9,10 +9,10 @@ import Slider from './components/Slider';
 function App() {
   return (
     <div className="App">
-      <Slider/>
+      {/* <Slider/> */}
       {/* <Line/> */}
-      {/* <Paragraph/> */}
-      <Loginform/>
+      <Paragraph/>
+      {/* <Loginform/> */}
     </div>
   );
 }

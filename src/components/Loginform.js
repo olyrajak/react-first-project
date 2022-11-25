@@ -13,7 +13,7 @@ function Loginform() {
     {/* <div className="shape"></div> */}
     {/* <div className="shape"></div> */}
 </div>
-<form method="post" action="/login">
+<form className='form' method="post" action="/login">
     <h3>Login</h3>
 
     <label for="email">UserName</label>

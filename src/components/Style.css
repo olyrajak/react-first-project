@@ -8,7 +8,12 @@
   --main-color-hover: rgb(104, 117, 217, 0.2);
   --track-color: #ddd;
 }
-
+.lit{
+    background-color: #ff512f;
+}
+.dark{
+    background-color: black;
+}
 .customSlider {
   /* max width of your slider */
   max-width: 300px;
@@ -190,7 +195,7 @@ h1 {
     bottom: -80px;
 }
 
-form {
+.form {
     height: 560px;
     width: 420px;
     background-color: rgba(4, 69, 37, 0.622);
@@ -204,6 +209,7 @@ form {
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(0, 44, 14, 0.846);
     padding: 50px 35px;
+
 }
 
 form * {
@@ -214,7 +220,8 @@ form * {
     border: none;
 }
 
-form h3 {
+.form h3 {
+    
     font-size: 32px;
     font-weight: bold;
     line-height: 42px;
