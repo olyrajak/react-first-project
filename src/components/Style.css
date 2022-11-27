@@ -9,10 +9,11 @@
   --track-color: #ddd;
 }
 .lit{
-    background-color: #ff512f;
+    background-color: #ff8c75;
 }
 .dark{
-    background-color: black;
+    background-color: rgb(34, 32, 32);
+    color:white
 }
 .customSlider {
   /* max width of your slider */
@@ -275,5 +276,3 @@ button {
     cursor: pointer;
 }
 
-
-/*# sourceMappingURL=style.css.map */
