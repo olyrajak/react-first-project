@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Slider/>
       {/* <Line/> */}
-      {/* <Paragraph/> */}
+      <Paragraph/> 
       <Loginform/>
     </div>
   );
