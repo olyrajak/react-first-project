@@ -1,8 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+
 import Line from './components/Line';
+
 import Loginform from './components/Loginform';
+
 import Paragraph from './components/Paragraph';
+
+
 import Slider from './components/Slider';
 
 
