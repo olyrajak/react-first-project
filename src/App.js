@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Slider/>
       {/* <Line/> */}
-      <Paragraph/> 
+      //SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS<Paragraph/> 
       <Loginform/>
     </div>
   );
