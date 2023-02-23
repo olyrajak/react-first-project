@@ -15,11 +15,14 @@ function App() {
   return (
     <div className="App">
       <Slider/>
+    
+    
       {/* <Line/> */}
       //SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS<Paragraph/> 
       <Loginform/>
     </div>
   );
+
 }
 
 export default App;
